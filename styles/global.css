@@ -19,10 +19,13 @@ html {
   --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
 
+  /* 1rem = 16px (tamanho default do user agent) */
+  /* Tamanho default do user agent modificado para 10px */
   font-size: 62.5%; /* Equivalente a 10px */
 }
 
 body {
+  display: flex;
   height: 100vh;
   background: var(--background);
 }
@@ -34,7 +37,7 @@ textarea {
   /* Intervalo de Tamanho */
   font-size: clamp(14px, 1.6rem, 2vw);
 
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* font-family: "Poppins", sans-serif; */
 }
 
@@ -55,6 +58,8 @@ textarea {
   border-width: 0;
 }
 
+/* ===#=== Input and Buttons ===#=== */
+
 input,
 button,
 .button {
@@ -64,7 +69,7 @@ button,
 
 button,
 .button {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   line-height: 0;
 
