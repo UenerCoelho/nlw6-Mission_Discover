@@ -16,6 +16,7 @@ html {
   --icons-details: #a5b0c1;
 
   --grey-dark: #4d5e77;
+  --grey-medium: #eaecf2;
   --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
 
@@ -43,7 +44,7 @@ textarea {
 
 .content {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .sr-only {
@@ -90,7 +91,8 @@ button:hover,
   filter: brightness(1.2);
 }
 
-button > img .button > img {
+button > img,
+.button > img {
   margin-right: 1rem;
   width: 2rem;
 }
@@ -102,6 +104,19 @@ button.outlined,
   border: 0.2rem solid var(--blue);
 }
 
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/* ===#=== Header ===#=== */
 .content header {
   width: 80%;
   margin: 3.5rem auto;
