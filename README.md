@@ -7,10 +7,10 @@
 </h1>
 
 <p align="center">
-  <a href="#-Technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-License">Licença</a>
+  <a href="#Technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#License">Licença</a>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
   <img alt="Rocket.Q" src=".github/capa.png" width="100%">
 </p>
 
-## 🚀 Technologies
+## Technologies
 
 This Project was created with:
 
@@ -37,7 +37,7 @@ This Project was created with:
 - Express
 - SQLite
 
-## 💻 Project
+## Project
 
 The Rocket.Q is an application of integration to make asks, with possibility to create an room for anonymous users to made questions, mark as read end excluded.
 
