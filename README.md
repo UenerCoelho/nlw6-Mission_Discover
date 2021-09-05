@@ -43,7 +43,7 @@ The Rocket.Q is an application of integration to make asks, with possibility to 
 
 ## Layout
 
-To layout this project you can access [this link](https://www.figma.com/community/file/1009821158959690135/Roquet.q)
+To layout this project you can access [this link](https://www.figma.com/community/file/1009821158959690135/Roquet.q) to see on figma.
 
 ## license
 
