@@ -22,7 +22,7 @@
 <br>
 
 <p align="center">
-  <img alt="Rocket.Q" src="https://github.com/jakeliny/Rocket.Q/blob/main/.github/capa.png" width="100%">
+  <img alt="Rocket.Q" src=".github/capa.png" width="100%">
 </p>
 
 ## 🚀 Technologies
