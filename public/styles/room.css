@@ -1,0 +1,219 @@
+.content {
+  max-width: min(112rem, 90%);
+}
+
+#room header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons {
+  display: flex;
+}
+
+#room header .buttons .button:nth-child(1) {
+  margin-right: 0.8rem;
+  padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(1) img {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+  padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(2) img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* ===#=== Question Form ===#=== */
+#question-form {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 4.2rem;
+
+  margin-bottom: 2.4rem;
+}
+
+#question-form form {
+  border: 0.2rem solid var(--grey-blue);
+  padding: 1.6rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+
+  margin-bottom: 1.6rem;
+}
+
+#question-form form textarea {
+  resize: none;
+  background: transparent;
+}
+
+#question-form form textarea::placeholder {
+  color: var(--grey-blue);
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#question-form form footer > div {
+  display: flex;
+  align-items: center;
+  color: var(--icons-details);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+#question-form form footer > div img {
+  margin-right: 0.9rem;
+}
+
+#question-form form footer button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+}
+
+/* ===#=== Questions ===#=== */
+.question-wrapper {
+  background: var(--light-blue);
+  margin-bottom: 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
+}
+
+.question-wrapper .question-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.question-wrapper .question-content .user {
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+
+.question-wrapper .question-content p {
+  margin-left: 1.6rem;
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  min-height: 5.2rem;
+}
+
+.question-wrapper .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.question-wrapper .actions > a {
+  display: flex;
+  align-items: center;
+}
+
+.question-wrapper .actions > a img {
+  margin-right: 0.8rem;
+}
+
+/* 
+  .question-wrapper .actions > a + a 
+  poderia utilizar a lina acima para o que está na linha abaixo, 
+  pois os 2 fazem o mesmo
+*/
+.question-wrapper .actions > a:nth-child(2) {
+  margin-left: 2.4rem;
+}
+
+/* ===#=== Questions Read ===#=== */
+.question-wrapper.read {
+  background: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content .user {
+  background: var(--grey-blue);
+}
+
+.question-wrapper.read .check {
+  visibility: hidden;
+}
+
+/* ===#=== Modal ===#=== */
+.modal-wrapper.active {
+  visibility: hidden;
+  opacity: 0;
+}
+.modal-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  /* Cor equivalente a background: #040911; */
+  background: rgba(4, 9, 17, 0.8);
+}
+
+.modal-wrapper .modal {
+  width: min(59rem, 90%);
+  background: var(--white);
+  margin: auto;
+
+  border-radius: 0.8rem;
+
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+  padding: 6.4rem;
+}
+
+.modal-wrapper .modal h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: var(--black);
+}
+
+.modal-wrapper .modal p {
+  margin-bottom: 2.4rem;
+  color: var(--grey-dark);
+}
+
+.modal-wrapper .modal input {
+  margin-bottom: 4rem;
+  padding: 1.3rem 1.6rem;
+  border: 0.2rem solid var(--grey-blue);
+  outline: none;
+  width: min(30.2rem, 70%);
+}
+
+.modal-wrapper .modal .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-wrapper .modal .buttons > .button {
+  margin-right: 0.8rem;
+}
+
+.modal-wrapper .modal .buttons > button,
+.modal-wrapper .modal .buttons > .button {
+  padding: 1.3rem 3.2rem;
+}
+
+/* ===#=== Parei no início da aula 04  ===#=== */
