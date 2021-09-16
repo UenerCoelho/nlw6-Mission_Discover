@@ -13,6 +13,4 @@ checkButtons.forEach(button => {
   })
 })
 
-// Pegar quando o marcar como lido for clicado
-
 // ===#=== Parei no minuto 01:15h da aula 04 ===#===
