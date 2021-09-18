@@ -27,7 +27,7 @@
       <header>
         <img src="./images/logo.svg" alt="Rocket.Q Logo" />
         <div class="buttons">
-          <div class="button outlined">
+          <div class="button outlined" id="room-id" data-id="323243">
             #323243
             <img src="./images/copy.svg" alt="Copiar número da sala" />
           </div>
@@ -72,11 +72,11 @@
                 </div>
               </div>
               <div class="actions">
-                <a href="#" class="check">
+                <a href="#" class="check" data-id="2">
                   <img src="./images/check.svg" alt="Marcar como lida" />
                   Marcar com lida
                 </a>
-                <a href="#" class="delete">
+                <a href="#" class="delete" data-id="2">
                   <img src="./images/trash.svg" alt="Excluir" />
                   Excluir
                 </a>
@@ -92,11 +92,11 @@
                 </div>
               </div>
               <div class="actions">
-                <a href="#" class="check">
+                <a href="#" class="check" data-id="3">
                   <img src="./images/check.svg" alt="Marcar como lida" />
                   Marcar com lida
                 </a>
-                <a href="#" class="delete">
+                <a href="#" class="delete" data-id="3">
                   <img src="./images/trash.svg" alt="Excluir" />
                   Excluir
                 </a>
@@ -112,40 +112,11 @@
                 </div>
               </div>
               <div class="actions">
-                <a href="#" class="check">
+                <a href="#" class="check" data-id="1">
                   <img src="./images/check.svg" alt="Marcar como lida" />
                   Marcar com lida
                 </a>
-                <a href="#" class="delete">
-                  <img src="./images/trash.svg" alt="Excluir" />
-                  Excluir
-                </a>
-              </div>
-            </div>
-            <div class="question-wrapper read">
-              <div class="question-content">
-                <div class="user">
-                  <img src="./images/user.svg" alt="Avatar" />
-                </div>
-                <div class="question">
-                  <p>
-                    Pergunta grande, Lorem ipsum dolor sit amet consectetur,
-                    adipisicing elit. Fugit veritatis magnam voluptate placeat
-                    veniam quaerat sed laudantium nam, quos aut molestias
-                    officiis? Dolorem amet nemo ad quas saepe maxime cumque?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates doloribus saepe blanditiis ullam ex debitis
-                    perspiciatis magnam! Asperiores distinctio saepe non modi,
-                    error maxime dicta! Mollitia nihil inventore possimus animi!
-                  </p>
-                </div>
-              </div>
-              <div class="actions">
-                <a href="#" class="check">
-                  <img src="./images/check.svg" alt="Marcar como lida" />
-                  Marcar com lida
-                </a>
-                <a href="#" class="delete">
+                <a href="#" class="delete" data-id="1">
                   <img src="./images/trash.svg" alt="Excluir" />
                   Excluir
                 </a>
@@ -161,7 +132,7 @@
       <div class="modal">
         <h2>Excluir Pergunta</h2>
         <p>Tem certeza que deseja excluir esta pergunta?</p>
-        <form action="">
+        <form action="#" method="POST">
           <label class="sr-only" for-id="password"
             >Digite sua senha admin</label
           >
