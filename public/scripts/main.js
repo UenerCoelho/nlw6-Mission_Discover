@@ -19,13 +19,26 @@ const deleteButton = document.querySelectorAll('.actions a.delete')
 
 deleteButton.forEach(button => {
   // Escutar o click do excluir
-  button.addEventListener('click', event => handleClick(event, (check = true)))
+  button.addEventListener('click', event => handleClick(event, false))
 })
 
 function handleClick(event, check = true) {
-  modalTitle.innerHTML = check ? 'Marcar como lido?' : 'Excluir essa pergunta?'
+  event.preventDefault()
+  const text = check ? 'Marcar como lida' : 'Excluir'
+  // Change <h2>
+  modalTitle.innerHTML = `${text} esta pergunta`
+
+  // Change <p>
+  modalDescription.innerHTML = `Deseja ${text.toLocaleLowerCase()} esta pergunta?`
+
+  // Change Button
+  modalButton.innerHTML = `Sim, ${text.toLocaleLowerCase()}`
+
+  // Remove Class red
+  check ? modalButton.classList.remove('red') : modalButton.classList.add('red')
+
   // Abrir Modal
   modal.open()
 }
 
-// ===#=== Parei no minuto 1:400h da Aula 04 ===#===
+// ===#=== Parei no minuto 1:40h da Aula 04 ===#===
