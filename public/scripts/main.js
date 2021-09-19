@@ -48,5 +48,3 @@ function handleClick(event, check = true) {
   // Abrir Modal
   modal.open()
 }
-
-// ===#=== Parei no minuto 1:40h da Aula 04 ===#===
