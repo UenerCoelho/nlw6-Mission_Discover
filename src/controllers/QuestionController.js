@@ -5,11 +5,11 @@ module.exports = {
     const action = req.params.action
     const password = req.body.password
 
-    console.log(`
-      room = ${roomId}, 
-      questionId = ${questionId}, 
-      action = ${action}, 
-      password = ${password}
-      `)
+    // console.log(`
+    //   room = ${roomId},
+    //   questionId = ${questionId},
+    //   action = ${action},
+    //   password = ${password}
+    //   `)
   }
 }
