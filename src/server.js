@@ -15,5 +15,3 @@ server.use(express.urlencoded({ extended: true }))
 server.use(route)
 
 server.listen(3000, () => console.log('rodando'))
-
-// ===#=== Parei no minuto 40:00 aula 04 ===#===
