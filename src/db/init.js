@@ -18,3 +18,5 @@ const initDb = {
 }
 
 initDb.init()
+
+// ===#=== Parei no minuto 3:10h da Aula 04 ===#===

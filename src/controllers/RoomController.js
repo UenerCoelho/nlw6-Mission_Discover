@@ -5,5 +5,3 @@ module.exports = {
     res.redirect(`/room/${roomId}`)
   }
 }
-
-// ===#=== Parei no minuto 2:38h da Aula 04 ===#===
