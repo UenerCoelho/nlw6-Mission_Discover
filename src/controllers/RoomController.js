@@ -8,19 +8,17 @@ module.exports = {
 
     for (var i = 0; i < 6; i++) {
       i == 0
-        ? (roomId += Math.floor(Math.random() * 10).toString())
+        ? (roomId = Math.floor(Math.random() * 10).toString())
         : (roomId += Math.floor(Math.random() * 10).toString())
     }
 
-    console.log(parseInt(roomId))
-
-    // await db.run(`INSERT INTO rooms (
-    //   id,
-    //   pass
-    // ) VALUES (
-    //   ${parseInt(roomId)},
-    //   ${pass}
-    // )`)
+    await db.run(`INSERT INTO rooms (
+      id,
+      pass
+    ) VALUES (
+      ${parseInt(roomId)},
+      ${pass}
+    )`)
 
     await db.close()
 
@@ -28,4 +26,4 @@ module.exports = {
   }
 }
 
-// ===#=== Parei no minuto 3:20h da Aula 04 ===#===
+// ===#=== Parei no início da Aula 05 ===#===
