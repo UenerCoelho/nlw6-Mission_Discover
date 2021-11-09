@@ -64,13 +64,15 @@
         <section id="questions">
           <h2 class="sr-only">Perguntas da comunidade</h2>
           <div class="questions">
+            <!-- 1th Question -->
+            <% questions.forEach(question => { %>
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
                   <img src="/images/user.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>Qual a diferença entre const, var e let no javascript</p>
+                  <p><%= question.title %></p>
                 </div>
               </div>
               <div class="actions">
@@ -84,6 +86,8 @@
                 </a>
               </div>
             </div>
+            <% }) %>
+            <!-- 2th Question -->
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
@@ -104,6 +108,7 @@
                 </a>
               </div>
             </div>
+            <!-- 3th Question -->
             <div class="question-wrapper read">
               <div class="question-content">
                 <div class="user">
@@ -123,6 +128,7 @@
                   Excluir
                 </a>
               </div>
+              <!-- Question Ending -->
             </div>
           </div>
         </section>
